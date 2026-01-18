@@ -136,3 +136,6 @@ sudo systemctl restart mosquitto
 sudo systemctl restart mqtt-firebase
 streamlit run streamlit_app.py --server.port 8501 --server.address 0.0.0.0
 ```
+
+## Wokwi Simulation File
+https://wokwi.com/projects/453330552913782785
