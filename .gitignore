@@ -1,0 +1,74 @@
+# ===== SECURITY - NEVER COMMIT THESE =====
+# API Keys & Credentials
+secrets.h
+firebase-key.json
+firebase_key.json
+.env
+.env.local
+
+# Private Certificates & Keys
+*.key
+*.pem
+broker.key
+ca.key
+esp32.key
+broker.csr
+esp32.csr
+ca.srl
+
+# ===== ENVIRONMENT & DEPENDENCIES =====
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+dashboard-env/
+.venv
+
+# Streamlit cache
+.streamlit/
+
+# ===== FIREBASE & DEPLOYMENT =====
+*.log
+*.pid
+
+# ===== IDE & OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== PROJECT SPECIFIC =====
+# Keep public certificates but ignore private keys
+ca.crt
+broker.crt
+esp32.crt
+diagram.json 
+wokwi.toml    
